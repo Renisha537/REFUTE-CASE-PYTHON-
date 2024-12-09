@@ -1,0 +1,7 @@
+list1 = [int(x) for x in input("Enter first list: ").split()]
+list2 = [int(x) for x in input("Enter second list: ").split()]
+common = []
+for n in list1:
+if n in list2:
+common.append(n)
+print(common)
